@@ -8,7 +8,7 @@ Read the full story [here](https://wolfcatworkshop.com/index.php/portfolio/drill
 ## Box Construction
 ![box schematic](https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipBox-box.jpg)
 
-* All faces in a single file in the following formats: [DXF](flipbox-animation/vector-files/all-box-faces.dxf), [AI](), [SVG]()
+* All faces in a single file in the following formats: [DXF](/vector-files/all-box-faces.dxf), [AI](), [SVG]()
 
 
 
