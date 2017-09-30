@@ -5,9 +5,10 @@ Read the full story [here](https://wolfcatworkshop.com/index.php/portfolio/drill
 
 ![flipbox](https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipbox-featured.jpeg)
 
-# Box Construction
+## Box Construction
 ![box schematic](https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipBox-box.jpg)
 
+* All faces in a single file in the following formats: [DXF](flipbox-animation/vector-files/all-box-faces.dxf), [AI](), [SVG]()
 
 
 
