@@ -16,7 +16,7 @@ Read the full story [here](https://wolfcatworkshop.com/index.php/portfolio/drill
 </p>
 
 * All faces in a single file in the following formats: [DXF](/vector-files/all-box-faces.dxf), [AI](/vector-files/all-box-faces.ai), [SVG](/vector-files/all-box-faces.svg)
-* Additional 1" box for electronics in the following formats: [DXF](/vector-files/bottom-box-faces.dxf), [AI](/vector-files/bottom-box-faces.ai), [SVG](/vector-files/bottom-box-faces.svg)
+* Additional 1" bottom box for electronics in the following formats: [DXF](/vector-files/bottom-box.dxf), [AI](/vector-files/bottom-box.ai), [SVG](/vector-files/bottom-box.svg)
 
 ## Additional parts
 * Frame holding wheel: [DXF](/vector-files/wheel.dxf), [AI](/vector-files/wheel.ai), [SVG](/vector-files/wheel.svg) and [STL](/stl-files/wheel.stl)(since this part is suitable for 3D printing).
