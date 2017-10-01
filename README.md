@@ -9,7 +9,7 @@ Read the full story [here](https://wolfcatworkshop.com/index.php/portfolio/drill
 ![box schematic](https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipBox-box.jpg)
 
 * All faces in a single file in the following formats: [DXF](/vector-files/all-box-faces.dxf), [AI](/vector-files/all-box-faces.ai), [SVG](/vector-files/all-box-faces.svg)
-* Additional 1" box for electronics in the following formats: [DXF](/vector-files/all-box-faces.dxf), [AI](/vector-files/all-box-faces.ai), [SVG](/vector-files/all-box-faces.svg)
+* Additional 1" box for electronics in the following formats: [DXF](/vector-files/bottom-box-faces.dxf), [AI](/vector-files/bottom-box-faces.ai), [SVG](/vector-files/bottom-box-faces.svg)
 
 ## Additional parts
 * Frame holding wheel: [DXF](/vector-files/wheel.dxf), [AI](/vector-files/wheel.ai), [SVG](/vector-files/wheel.svg) and [STL](/stl-files/wheel.stl)(since this part is suitable for 3D printing).
@@ -34,7 +34,9 @@ The specifics of my final circuit are as follows:
    * 270 Ohm resistor
 * Trimpots are 10 K ohm outside legs connected to 5v and Ground, middle leg to pins A1 and A2 respectively
 * Switch uses a pull-down 10 k resistor connected to ground and the other leg to 5v
+* Arduino [Code](/code/arduino-Sketch.ino)
 
+Note that in the above code the analog pins are referenced as A1, A2, and A3 which works with the Attiny85 microcontroller but not with other boards. Also, I changed the PWM frequency on line 75 to get rid of the motor buzzing at low speeds but this affects the delay() and millis() functions. Read more about compesanting for this at https://playground.arduino.cc/Main/TimerPWMCheatsheet
 
 
 
