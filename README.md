@@ -26,12 +26,12 @@ The specifics of my final circuit are as follows:
 * Attiny85 chip running with internal 1 MHZ clock
 * Powered by a 12v, 300 mA wall wart
 * Power is regulated by an L7805 voltage regulator with two electrolytic capacitors
-..* 10 uF on the input
-..* 47 uF on the output
+⋅⋅⋅* 10 uF on the input
+⋅⋅⋅* 47 uF on the output
 * Each motor control switches 12 v using:
-..* TIP112 transistor
-..* 1N4001 Diode
-..*270 Ohm resistor
+⋅⋅⋅* TIP112 transistor
+⋅⋅⋅* 1N4001 Diode
+⋅⋅⋅* 270 Ohm resistor
 * Trimpots are 10 K ohm outside legs connected to 5v and Ground, middle leg to pins A1 and A2 respectively
 * Switch uses a pull-down 10 k resistor connected to ground and the other leg to 5v
 
