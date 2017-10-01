@@ -20,7 +20,7 @@ Read the full story [here](https://wolfcatworkshop.com/index.php/portfolio/drill
 
 ## Additional parts
 * Frame holding wheel: [DXF](/vector-files/wheel.dxf), [AI](/vector-files/wheel.ai), [SVG](/vector-files/wheel.svg) and [STL](/stl-files/wheel.stl)(since this part is suitable for 3D printing).
-* Small DC motor mount: [DXF](/vector-files/motor-mount.dxf), [SVG](/vector-files/motor-mount.svg) and [STL](/stl-files/motor-mount.stl)
+* Small DC motor mount: [DXF](/vector-files/motor-mount.dxf), [AI](/vector-files/motor-mount.ai), [SVG](/vector-files/motor-mount.svg) and [STL](/stl-files/motor-mount.stl)
 
 ## Electronics
 This project can be replicated with any number of Arduino compatible boards, in my case, for space saving purpuses I used an Attiny85.
@@ -29,7 +29,7 @@ This project can be replicated with any number of Arduino compatible boards, in 
 * A small potentiometer serves as a physical interface to adjust the speed of each motor (see the [Reading a potentiometer](https://www.arduino.cc/en/tutorial/potentiometer) example).
 * There is a single button to start the operation and start the timer, so every time you press the button the animation plays for 1 minute and then stops (see [Button Tutorial](https://www.arduino.cc/en/Tutorial/Button) and [Debounce Tutorial](https://www.arduino.cc/en/Tutorial/Debounce)).
 
-The specifics of my final circuit are as follows:
+**The specifics of my final circuit are as follows:**
 * Attiny85 chip running with internal 1 MHZ clock
 * Powered by a 12v, 300 mA wall wart
 * Power is regulated by an L7805 voltage regulator with two electrolytic capacitors
