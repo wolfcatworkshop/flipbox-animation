@@ -8,10 +8,12 @@ Read the full story [here](https://wolfcatworkshop.com/index.php/portfolio/drill
 <img src="https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipbox-featured.jpeg">
 </p>
 
-![flipbox](https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipbox-featured.jpeg)
+
 
 ## Box Construction
-![box schematic](https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipBox-box.jpg)
+<p align="center"> 
+<img src="https://github.com/wolfcatworkshop/flipbox-animation/blob/master/images/flipBox-box.jpg">
+</p>
 
 * All faces in a single file in the following formats: [DXF](/vector-files/all-box-faces.dxf), [AI](/vector-files/all-box-faces.ai), [SVG](/vector-files/all-box-faces.svg)
 * Additional 1" box for electronics in the following formats: [DXF](/vector-files/bottom-box-faces.dxf), [AI](/vector-files/bottom-box-faces.ai), [SVG](/vector-files/bottom-box-faces.svg)
@@ -44,6 +46,6 @@ The specifics of my final circuit are as follows:
 Note that in the above code the analog pins are referenced as A1, A2, and A3 which works with the Attiny85 microcontroller but not with other boards. Also, I changed the PWM frequency on line 75 to get rid of the motor buzzing at low speeds but this affects the delay() and millis() functions. Read more about compesanting for this at https://playground.arduino.cc/Main/TimerPWMCheatsheet
 
 
-
+More of my work at https://wolfcatworkshop.com
 
 
